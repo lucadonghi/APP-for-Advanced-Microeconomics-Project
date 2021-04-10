@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-#setwd("C:/Users/lucad/OneDrive/Desktop/CODING FOR DATA SCIENCE/Mobile_Telecomunication_Market")
+setwd("C:/Users/lucad/OneDrive/Desktop/CODING FOR DATA SCIENCE/Mobile_Telecomunication_Market")
 library(shiny)
 library(readxl)
 library(rdrobust)
@@ -45,7 +45,18 @@ ui <- navbarPage("The Iliad effect",
             h5(strong("Operator brief description:")),
             h5(textOutput("uno")),
             h5(textOutput("due")),
-            h5(textOutput("tre"))
+            h5(textOutput("tre")),
+            h5(textOutput("quattro")),
+            h5(textOutput("cinque")),
+            h5(textOutput("sei")),
+            h5(textOutput("sette")),
+            h5(textOutput("otto")),
+            h5(textOutput("nove")),
+            h5(textOutput("dieci")),
+            h5(textOutput("undici")),
+            h5(textOutput("dodici")),
+            h5(textOutput("tredici")),
+            h5(textOutput("quattordici"))
         )
     )),
     
@@ -123,7 +134,91 @@ server <- function(input, output) {
         }
         else {""}
     })
-    output$tre <- renderText({"hola"})
+    output$tre <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>2){
+            cheallafiera[3]
+        }
+        else {""}
+    })
+    output$quattro <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>3){
+            cheallafiera[4]
+        }
+        else {""}
+    })
+    output$cinque <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>4){
+            cheallafiera[5]
+        }
+        else {""}
+    })
+    output$sei <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>5){
+            cheallafiera[6]
+        }
+        else {""}
+    })
+    output$sette <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>6){
+            cheallafiera[7]
+        }
+        else {""}
+    })
+    output$otto <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>7){
+            cheallafiera[8]
+        }
+        else {""}
+    })
+    output$nove <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>8){
+            cheallafiera[9]
+        }
+        else {""}
+    })
+    output$dieci <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>9){
+            cheallafiera[10]
+        }
+        else {""}
+    })
+    output$undici <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>10){
+            cheallafiera[11]
+        }
+        else {""}
+    })
+    output$dodici <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>11){
+            cheallafiera[12]
+        }
+        else {""}
+    })
+    output$tredici <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>12){
+            cheallafiera[13]
+        }
+        else {""}
+    })
+    output$quattordici <- renderText({
+        cheallafiera<-unoduetre()
+        if (length(cheallafiera)>13){
+            cheallafiera[14]
+        }
+        else {""}
+    })
+        
     unoduetre<-reactive({
         descriptionset<-list()
         for(i in 1:length(input$checkGroup)){

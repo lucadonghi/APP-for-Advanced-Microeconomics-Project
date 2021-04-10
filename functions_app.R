@@ -1,3 +1,5 @@
+library("Rcpp")
+
 var_descri<-function(variable){
 return(switch (variable,
         "Daily giga" = "'Daily giga' is a variable representing how many gigabytes per day were offered in any
@@ -42,5 +44,4 @@ operdescri<-function(operator){
                 "Tiscali"="tiscali",
                 "UnoMobile"="unomobile",
                 "Very Mobile"="very mobile")
-  )
-}
+  )}
