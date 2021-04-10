@@ -6,7 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-setwd("C:/Users/lucad/OneDrive/Desktop/CODING FOR DATA SCIENCE/Mobile_Telecomunication_Market")
+#setwd("C:/Users/lucad/OneDrive/Desktop/CODING FOR DATA SCIENCE/Mobile_Telecomunication_Market")
 library(shiny)
 library(readxl)
 library(rdd)
