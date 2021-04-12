@@ -39,7 +39,7 @@ ui <- navbarPage("The Iliad effect",
             h3("Empirical analysis on price in Italian mobile telecommunication market:",br(), "the Iliad effect"),
             h5("This is an interactive representation of the economic paper", em("'Empirical analysis on price in Italian
             mobile telecommunication market: the Iliad effect'"), ". The paper aims to analyse the effect of the entry of Iliad in the Italian mobile
-            telecommunication market and for further knowledge about the topic it is available in the same Github folder."),
+            telecommunication market and for further knowledge the paper is available ",a("here",href="https://drive.google.com/file/d/1QkuVplG0689dmlMeWsrv58dS4LLyCbOJ/view?usp=sharing"),"."),
             h5(strong("Dependent variable:")),
             h5(textOutput("depvar")),
             h5(strong("Scatterplot:")),
