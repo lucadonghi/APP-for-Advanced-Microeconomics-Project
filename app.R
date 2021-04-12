@@ -143,7 +143,7 @@ server <- function(input, output) {
         if (length(operadescriptions)>0){
             operadescriptions[1]
         }
-        else {paste("No variable selected.")}
+        else {paste("No operator selected.")}
     })
     output$due <- renderText({
         operadescriptions<-chosendescri()
