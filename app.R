@@ -131,8 +131,10 @@ server <- function(input, output) {
 #Display all the descriptions of the chosen operators
     chosendescri<-reactive({
         descriptionset<-list()
-        for(i in 1:length(input$opercheckgroup1)){
-            descriptionset[length(descriptionset)+1]<-operdescri(input$opercheckgroup1[i])
+        if (!(is.null(input$opercheckgroup1))){
+            for(i in 1:length(input$opercheckgroup1)){
+                descriptionset[length(descriptionset)+1]<-operdescri(input$opercheckgroup1[i])
+            }
         }
         return(paste(descriptionset,sep="") )
     })
@@ -141,7 +143,7 @@ server <- function(input, output) {
         if (length(operadescriptions)>0){
             operadescriptions[1]
         }
-        else {""}
+        else {paste("No variable selected.")}
     })
     output$due <- renderText({
         operadescriptions<-chosendescri()
