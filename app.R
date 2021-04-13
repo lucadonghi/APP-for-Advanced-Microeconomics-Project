@@ -7,10 +7,9 @@
 #    http://shiny.rstudio.com/
 #
 #setwd("C:/Users/lucad/OneDrive/Desktop/CODING FOR DATA SCIENCE/Mobile_Telecomunication_Market")
-library(shiny)
-library(readxl)
-library(rdrobust)
-library(ggplot2)
+if (!require("pacman")) install.packages("pacman")
+
+pacman::p_load(shiny,readxl,rdrobust,ggplot2)
 source("functions_app.R")
 Dataset_Telecomunication <- read_excel("Dataset_Telecomunication.xlsx")
 
