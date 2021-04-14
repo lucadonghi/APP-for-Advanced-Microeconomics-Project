@@ -35,4 +35,7 @@ In the sidebar you can choose:
 3.The polinomial degree of the RD Plot.
 
 ## Files Description
-[Dataset_Telecomunication.xlsx](https://github.com/lucadonghi/Interactive_paper/blob/master/Dataset_Telecomunication.xlsx)
+[Dataset_Telecomunication.xlsx](https://github.com/lucadonghi/Interactive_paper/blob/master/Dataset_Telecomunication.xlsx) is the Excel file containing the collected data on which the Shiny App works. Data gathering has been performed for the economical paper drafting and you can find more information about this in the "The_Iliad_effect" PDF file.
+[The_Iliad_effect.pdf](https://github.com/lucadonghi/Interactive_paper/blob/master/The_Iliad_effect.pdf) is the economical paper realized as part of a project for the Advance Microeconomics course. The entire Shiny App is based on it.
+[functions_app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/functions_app.R) is an R script containing few user-defined functions used "app.R".
+[app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/app.R) contains the code used to run Interactive_paper shiny app.
