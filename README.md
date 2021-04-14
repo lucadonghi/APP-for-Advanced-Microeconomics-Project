@@ -1,6 +1,6 @@
 # Interactive_paper
 This Shiny App is an interactive representation of the economic paper 'Empirical analysis on price in Italian mobile telecommunication market: the Iliad effect'. 
-This paper has been realized by me and a colleague of mine, Elisabetta Rocchetti, as part of a project for the Advance Microeconomics course. 
+This paper has been realized by me and a colleague of mine, @eliroc98 , as part of a project for the Advance Microeconomics course. 
 It aims to analyse the effect of the entry of Iliad in the Italian mobile telecommunication market and for further knowledge the paper is available [here](https://drive.google.com/file/d/1IrFap4ghJhrOmIcOGX_kO4WO_Zvi2Yl6/view?usp=sharing).
 
 ## How to use the Interactive_paper
@@ -30,9 +30,9 @@ This second tab is composed by:
 4. Short text including the estimated coefficient of interest with its significance level.
 
 In the sidebar you can choose:
-1.The dependent variable of interest among the nine available: this selection will print the respective description and will change the dependent variable in the RD Plot and in the Regression Discontinuity coefficient estimation.
-2.The cutoff that will be used both in the RD Plot and in the Regression Discontinuity coefficient estimation.
-3.The polinomial degree of the RD Plot.
+1. The dependent variable of interest among the nine available: this selection will print the respective description and will change the dependent variable in the RD Plot and in the Regression Discontinuity coefficient estimation.
+2. The cutoff that will be used both in the RD Plot and in the Regression Discontinuity coefficient estimation.
+3. The polinomial degree of the RD Plot.
 
 ## Files Description
 [Dataset_Telecomunication.xlsx](https://github.com/lucadonghi/Interactive_paper/blob/master/Dataset_Telecomunication.xlsx) is the Excel file containing the collected data on which the Shiny App works. Data gathering has been performed for the economical paper drafting and you can find more information about this in the "The_Iliad_effect" PDF file.
