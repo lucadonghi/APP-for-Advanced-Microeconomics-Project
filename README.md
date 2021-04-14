@@ -13,11 +13,25 @@ It aims to analyse the effect of the entry of Iliad in the Italian mobile teleco
 The app consists of two Tab displaying respectively mobile plans dristribution and the econometric analysis
 ### 1. Italian Mobile Telecomunication Tariffs
 This first tab is composed by:
-1. A brief description of the Shiny App.
+1. Brief description of the Shiny App.
 2. The description of the selected dependent variable.
-3. The scatterplot showing the distribution of the selected dependent variable (corrisponding to the selected operators mobile telecomunication plans) on the timeline ("Days from Iliad entry").
-4. The short descriptions of the selected operators.
+3. The scatterplot showing the distribution of the selected dependent variable on the timeline ("Days from Iliad entry").
+4. Short descriptions of the selected operators.
 
 In the sidebar you can choose:
 1. The dependent variable of interest among the nine available: this selection will print the respective description and will change the dependent variable in the scatterplot.
-2. The time period of interest between the 2000 days available: this choice will change the sca
+2. The time period of interest between the 2000 days available: this choice will change the scatterplot zooming on the selected time period.
+3. The mobile operators of which you want to display the observations: it will change the observations plotted in the scatterplot and it will print a short description oof the selected operator.
+### 2. Sharp Regression Discontinuity Design
+This second tab is composed by:
+1. A brief description of the econometric tecnique applied.
+2. The description of the selected dependent variable.
+3. The Regression Discontinuity Plot of the selected dependent variable on the timeline ("Days from Iliad entry").
+4. Short text including the estimated coefficient of interest with its significance level.
+
+In the sidebar you can choose:
+1.The dependent variable of interest among the nine available: this selection will print the respective description and will change the dependent variable in the RD Plot and in the Regression Discontinuity coefficient estimation.
+2.The cutoff that will be used both in the RD Plot and in the Regression Discontinuity coefficient estimation.
+3.The polinomial degree of the RD Plot.
+
+## Files Description
