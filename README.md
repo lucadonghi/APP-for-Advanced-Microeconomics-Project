@@ -1,6 +1,6 @@
 # Interactive_paper
 This Shiny App is an interactive representation of the economic paper 'Empirical analysis on price in Italian mobile telecommunication market: the Iliad effect'. 
-This paper has been realized by me and a colleague of mine, @eliroc98 , as part of a project for the Advance Microeconomics course. 
+This paper has been realized by me and a colleague of mine, Elisabetta Rocchetti , as part of a project for the Advance Microeconomics course. 
 It aims to analyse the effect of the entry of Iliad in the Italian mobile telecommunication market and for further knowledge the paper is available [here](https://drive.google.com/file/d/1IrFap4ghJhrOmIcOGX_kO4WO_Zvi2Yl6/view?usp=sharing).
 
 ## How to use the Interactive_paper
@@ -36,6 +36,9 @@ In the sidebar you can choose:
 
 ## Files Description
 [Dataset_Telecomunication.xlsx](https://github.com/lucadonghi/Interactive_paper/blob/master/Dataset_Telecomunication.xlsx) is the Excel file containing the collected data on which the Shiny App works. Data gathering has been performed for the economical paper drafting and you can find more information about this in the "The_Iliad_effect" PDF file.
+
 [The_Iliad_effect.pdf](https://github.com/lucadonghi/Interactive_paper/blob/master/The_Iliad_effect.pdf) is the economical paper realized as part of a project for the Advance Microeconomics course. The entire Shiny App is based on it.
+
 [functions_app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/functions_app.R) is an R script containing few user-defined functions used "app.R".
+
 [app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/app.R) contains the code used to run Interactive_paper shiny app.
