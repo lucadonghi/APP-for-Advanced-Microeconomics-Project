@@ -73,7 +73,7 @@ ui <- navbarPage("The Iliad effect",
                    helpText(div(h3("Cutoff"), style="color:black"), br(), div("The default ",em("cutoff")," is set to ",strong("zero"), " which correspond exactly to May 29th 2018: when ", strong("Iliad")," entered the market. Changing the cutoff would mean to estimate the effect of a different event that took place near the selected day.",br(),"Note that the effect could always be slightly anticipated or posticipated.",style="color:black")),
                    sliderInput("cutoffslider1", h3(""),
                                min = -500, max = 500, value = 0)),
-                   selectInput("polinomselect1", label = h3("Polinomial degree"), 
+                   selectInput("polinomselect1", label = h3("Polynomial degree"), 
                                choices = c("1", "2", "3", "4"), 
                                selected = "1")
         ),
