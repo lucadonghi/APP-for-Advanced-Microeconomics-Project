@@ -39,6 +39,6 @@ The app consists of two tabs displaying respectively mobile plans distribution a
 
 [The_Iliad_effect.pdf](https://github.com/lucadonghi/Interactive_paper/blob/master/The_Iliad_effect.pdf) is the economical paper realized as part of a project for the Advance Microeconomics course. The entire Shiny App is based on it.
 
-[functions_app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/functions_app.R) is a R script containing few user-defined functions used "*app.R*".
+[functions_app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/functions_app.R) is a R script containing few user-defined functions used in "*app.R*".
 
 [app.R](https://github.com/lucadonghi/Interactive_paper/blob/master/app.R) contains the code used to run *Interactive_paper* shiny app.
