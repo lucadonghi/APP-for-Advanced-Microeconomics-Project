@@ -10,7 +10,7 @@ It aims to analyse the effect of the entry of Iliad in the **Italian mobile tele
 4. Type this command in your RStudio console: `runGitHub("Interactive_paper","lucadonghi","master")`
 
 ## Shiny App composition
-The app consists of two Tab displaying respectively mobile plans dristribution and the econometric analysis
+The app consists of two tabs displaying respectively mobile plans dristribution and the econometric analysis
 ### 1. Italian Mobile Telecomunication Tariffs
 **This first tab is composed by:**
 1. Brief **description** of the Shiny App.
