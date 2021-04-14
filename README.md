@@ -5,3 +5,6 @@ It aims to analyse the effect of the entry of Iliad in the Italian mobile teleco
 
 ## How to use the Interactive_paper
 1. Make sure to install the `shiny` package.
+2. Import `shiny` package.
+3. If you don't have the other packages installed, running the Shiny App it will automatically check, install and load them. If it doesn't happen make sure to install also the following packages (and to import them): `pacman`, `readxl`, `rdrobust`, `ggplot2`.
+4. Type this command in your RStudio console: `runGitHub("Interactive_paper","lucadonghi","master")`
