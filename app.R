@@ -277,7 +277,7 @@ server <- function(input, output) {
         pv<-rdrobust$pv[1]
         options(scipen=999)
         l<-paste("The estimated coefficient of interest takes value ", round(coeff,digits=3), "and pvalue", round(pv,digits=4))
-        if(pv>=0.00500000){paste(l, ". The effect of what happened in day ",input$cutoffslider1, " before Iliad entered the market is statistically NOT significant.")
+        if(pv>=0.05){paste(l, ". The effect of what happened in day ",input$cutoffslider1, " before Iliad entered the market is statistically NOT significant.")
             
         } else{paste(l,". The effect of what happened ",input$cutoffslider1, " days from Iliad entry on the dependent variable is statistically significant.")
             
